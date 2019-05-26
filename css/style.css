@@ -1,0 +1,278 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: gainsboro
+}
+a{
+    color: lightskyblue;
+}
+a:hover{
+    color: lightskyblue;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+.jumbotron #details{
+    position: absolute;
+    color: white;
+}
+.jumbotron img{
+    width: 100%;
+}
+section .widgets{
+    margin-bottom: 20px;
+}
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+.popular.details{
+    margin-left: -20px;
+}
+.popular.details p{
+    font-family: arial;
+    font-size: 11px;
+}
+.popular img{
+    width: 100%;
+    margin-top: 12px;
+}
+.popular ul li{
+    list-style: none;
+}
+.categories{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.post{
+    background: white;
+    border: red;
+    margin: 15px 0px;
+}
+.post .post-date{
+    padding: 20px;
+    text-align: center;
+}
+.post .post-date .day{
+    font-size: 30px;
+    color: red
+}
+.post .post-date .month{
+    font-size: 18px;
+}
+.post .post-date .year{
+    font-size: 18px;
+    font-weight: 100;
+}
+.post .post-title{
+    padding:5px 20px 20px 20px;
+    border-left:2px solid gainsboro;
+    
+}
+.post .post-title span{
+    color: red;
+    font-weight: 100;
+    border-left: 10px;
+}
+.post .profile-picture{
+    padding: 10px;
+}
+.post .profile-picture img{
+    width: 70%;
+}
+.post > a >img{
+    width:100%;
+
+}
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 10px;
+    line-height: 20px;
+}
+.post >a.btn{
+    margin-left:15px; 
+    margin-bottom: 10px;
+}
+.post .bottom{
+    padding: 10px 20px;
+    border-top:1px solid gainsboro;
+}
+.post .bottom{
+    color: gainsboro;
+}
+.post .bottom .first{
+    margin-right: 20px;
+}
+.post .bottom .sec{
+    margin-left: 20px;
+}
+nav#pagination{
+    text-align: center;
+}
+.pagination > li > a{
+    color: lightskyblue;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+footer{
+    background: black;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+.contact-form{
+    background: white;
+    padding: 50px 25px;
+}
+.contact-form h2{
+    color: lightskyblue;
+}
+.contact-form textarea{
+    resize: none;
+}
+
+.related-posts{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.related-posts img{
+    width: 50%;     
+}
+.related-posts h3{
+    color: lightskyblue;
+}
+.author{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.author img{
+    width: 100%;
+}
+.author h4{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+.author p{
+    font-weight: 100;
+}
+.comment{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.comment h3{
+    color: lightskyblue;
+}
+.comment img{
+    width: 80%;
+}
+.comment h4{
+    color: lightskyblue;
+}
+.comment p{
+    font-weight: 100;
+}
+.comment .single-comment{
+    margin-bottom: 10px;
+}
+
+.comment-box{
+    margin-bottom: 15px;
+    background: white;
+    padding: 20px;
+}
+
+.comment-box textarea{
+    resize: none;
+}
+
+            @media (max-width:992px){
+    
+     .post .profile-picture{
+        text-align: center;
+         margin-top: -40px;
+    }
+    .post .post-title{
+        text-align: center;
+        border: none;
+    }
+    .post .profile-picture img{
+        width: 20%;
+    }
+}
+            @media (max-width:786px){
+    
+    .jumbotron #details{
+        margin-top: 20px;
+    }
+    .post .post-title{
+        margin-top: -30px;
+        text-align: center;
+        border: none;
+    }
+    .post .profile-picture{
+        text-align: center;
+    }
+    .post .profile-picture img{
+        width: 20%;
+    }
+    .pagination >li >a{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    footer{
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+    .navbar-inverse .navbar-nav>li>a{
+        text-align: center;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li >a{
+        text-align: center;
+    }
+    .author{
+        background: white;
+        padding: 20px;
+        margin-bottom: 15px;
+            text-align: center;
+    }
+    .author img{
+            width: 30%;
+        }
+    .author h4{
+            color: lightskyblue;
+            text-decoration: underline;
+        }
+    .author p{
+            font-weight: 100;
+        }
+    .comment{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    }
+    .comment h3{
+        color: lightskyblue;
+    }
+    .comment img{
+        width: 30%;
+    }
+    .comment h4{
+        color: lightskyblue;
+    }
+    .comment p{
+        font-weight: 100;
+    }
+    .comment .single-comment{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
